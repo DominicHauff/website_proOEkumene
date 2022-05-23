@@ -1,0 +1,60 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <script src="script.js"></script>
+    </head>
+
+    <header>
+        <img src="logo.jpg" id="logo">
+        <img src="logo_cut.png" id="logo-alt">
+        <p id="title">Pro &Oumlkumene</p>
+        <i onclick="openNav()" class="material-icons" id="menu-btn-down">menu</i>
+        <i onclick="closeNav()" class="material-icons" id="menu-btn-up">expand_less</i>
+    </header>
+
+    <hr style="width: 70%; margin-left: auto; margin-right: auto;">
+
+    <body style="margin: 0;">
+        <div id="dropdown">
+            <nav id="main-nav">
+                <a onclick="scrollToElement('A-Par')">Veranstaltungen</a>
+                <a href="selbstdarstellung.html">über uns</a>
+                <a href="archiv.html">aus unserer Arbeit</a>
+                <a href="links.html">weitere Links</a>
+                <a href="kontakt.html">Kontakt</a>
+                <a href="spenden.html">Spenden</a>
+            </nav>
+        </div>
+
+        <div id="slide-show">
+            <div id="imgs">
+                <img src="Bilder/img_1.jpg" class="slide">
+                <img src="Bilder/img_4.jpg" class="slide">
+                <img src="Bilder/img_5.jpg" class="slide">
+                <img src="Bilder/img_6.jpg" class="slide">
+                <img src="Bilder/img_8.jpg" class="slide">
+                <img src="Bilder/img_9.jpg" class="slide">
+                <img src="Bilder/img_10.jpg" class="slide">
+                <img src="Bilder/img_11.jpg" class="slide">
+                <img src="Bilder/img_12.jpg" class="slide">
+                <img src="Bilder/img_13.jpg" class="slide">
+                <img src="Bilder/img_14.jpg" class="slide">
+                <img src="Bilder/img_15.jpg" class="slide">
+                <img src="Bilder/img_16.jpg" class="slide">
+            </div>
+
+            <i class="material-icons" onclick="plusDivs(-1)" id="previous">navigate_before</i>
+            <i class="material-icons" onclick="plusDivs(1)" id="next">navigate_next</i>
+        </div>
+
+        <div class="section" id="A-Par">
+            <h1>Veranstaltungen</h1>
+            <img src="Bilder/Flyer_Forum_├ûkumene_12.05.221024_1.jpg" width="100%" height="auto">
+            <img src="Bilder/Flyer_Forum_├ûkumene_12.05.221024_2.jpg" width="100%" height="auto">
+        </div>
+    </body>
+</html>

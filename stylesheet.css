@@ -1,0 +1,211 @@
+body {
+    font-family: Bahnschrift;
+}
+
+#logo {
+    max-width: 45%;
+    height: auto;
+}
+
+#logo-alt {
+    display: none;
+    width: 8vw;
+    height: auto;
+}
+
+#title {
+    font-size: 4vw;
+    display: none;
+}
+
+#menu-btn-down, #menu-btn-up {
+    font-size: 3vw;
+    position: absolute;
+    top: 3vw;
+    right: 20vw;
+    user-select: none;
+}
+
+#menu-btn-down:hover, #menu-btn-up:hover {
+    opacity: 50%;
+    cursor: pointer;
+}
+
+header {
+    margin: auto;
+    width: 60%;
+}
+
+nav {
+    display: none;
+    position: absolute;
+    width: 70%;
+    left: 15%;
+    text-align: center;
+    background-color: rgb(155, 51, 125);
+    border-radius: 15px;
+    user-select: none;
+    z-index: 1;
+}
+
+nav a {
+    display: inline-block;
+    padding: 5px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    font-size: 25px;
+    font-family: Bahnschrift;
+    text-align: center;
+    color: white;
+    user-select: none;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: black;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+button {
+    background-color: white;
+    text-decoration: none;
+    border: none;
+    user-select: none;
+}
+
+#previous, #next {
+    position: absolute;
+    font-size: 60px;
+    user-select: none;
+}
+
+#previous {
+    left: 0;
+    top: 50%;
+}
+
+#next {
+    right: 0;
+    top: 50%;
+}
+
+#previous:hover, #next:hover {
+    opacity: 50%;
+    cursor: pointer;
+}
+
+#slide-show {
+    text-align: center;
+    position: relative;
+    width: 70%;
+    margin: auto;
+    margin-top: 10vh;
+}
+
+#imgs {
+    width: 1024px;
+    height: 682px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    user-select: none;
+}
+
+.slide {
+    display: none;
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.section {
+    padding-top: 2%;
+    font-size: 20px;
+    width: 70%;
+    margin: auto;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+@media screen and (max-width: 1600px) {
+    header {
+        padding-top: 5px;
+    }
+
+    #logo {
+        display: none;
+    }
+
+    #logo-alt {
+        display: none;
+    }
+
+    #title {
+        display: inline;
+    }
+
+    #menu-btn-down, #menu-btn-up {
+        font-size: 5vw;
+        top: 0.5%;
+    }
+
+    #imgs {
+        width: 612px;
+        height: 454px;
+    }
+
+    nav {
+        width: 30%;
+        left: 55%;
+    }
+
+    nav li {
+        display: block;
+        text-align: left;
+        margin-left: 2vw;
+        font-size: 2.5vw;
+    }
+
+    #previous, #next {
+        font-size: 50px;
+        top: 40%;
+    }
+
+    #previous {
+        left: 0;
+    }
+    
+    #next {
+        right: 0;
+    }
+
+    .section {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 25px;
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #imgs {
+        width: 341px;
+        height: 227px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #slide-show {
+        width: 90%;
+        height: auto;
+    }
+}
