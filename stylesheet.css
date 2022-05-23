@@ -166,7 +166,7 @@ h1 {
         left: 55%;
     }
 
-    nav li {
+    nav a {
         display: block;
         text-align: left;
         margin-left: 2vw;
