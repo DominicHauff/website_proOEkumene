@@ -1,0 +1,167 @@
+﻿body {
+    margin: 0;
+    background-color: lightgray;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(155, 51, 125);
+    color: white;
+    font-size: 45px;
+    font-family: Bahnschrift;
+    top: 0;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+#homebutton{
+    float: left;
+    font-size: 70%;
+    text-decoration: none;
+    color: white;
+    margin-top: 15px;
+}
+
+nav{
+    float: left;
+    width: 100%;
+    height: 400px;
+    background: lightgray;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 20px;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+
+}
+
+li,img{
+    border-radius: 10px;
+    margin-top: 25px;
+    width: 350px;
+    height: 200px;
+}
+
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#selbstdarstellung{
+    padding: 8px;
+    text-indent: 50px;
+    font-size: 40px;
+    text-align: justify;
+    letter-spacing: 2px;
+    text-decoration: none;
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+#erklärung{
+    padding: 8px;
+    text-indent: 50px;
+    font-size: 200%;
+    text-align: center;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+#selbstdarstellung{
+    padding: 100px;
+}
+
+th:hover{
+    transition: 0.5s;
+    border-color: white;
+    color: white;
+    cursor: pointer;
+}
+
+#links {
+    float: left;
+    width: 50%;
+    border: solid black;
+    border-width: 3px;
+    border-top: none;
+	border-bottom: none;
+    height: 100%;
+}
+
+.kontakt{
+    font-size: 200%;
+    padding-bottom: 10%;
+    padding-left: 20px;
+    font-family: Bahnschrift;
+}
+
+.link{
+    font-size: 200%;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    font-family: Bahnschrift;
+}
+
+title {
+    font-family: Bahnschrift;
+}
+
+#linkHeader{
+    background-color: rgb(155, 51, 125);
+    color: white;
+    font-size: 45px;
+    font-family: Bahnschrift;
+    top: 0;
+    padding: 10px;
+    text-align: center;
+    border-bottom: none;
+}
+
+#spenden {
+	font-size: 300%;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	padding-top: 1%;
+}
+
+#artikel, #flyer{
+    height: auto;
+    font-family: Bahnschrift;
+    float: left;
+}
+
+.category{
+    font-size: 50px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: circle;
+    font-size: 30px;
+    padding-left: 400px;
+  }
+
+#konto {
+	padding-top: 100px;
+}
+
+@media (max-width: 600px){
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+}
