@@ -130,6 +130,49 @@ button {
     margin: auto;
 }
 
+#A-Par, #B-Par, #C-Par, #D-Par {
+    padding-bottom: 10vh;
+    padding-top: 5vh;
+}
+
+#B-Par {
+    width: 65%;
+    margin: auto;
+    text-indent: 50px;
+    font-size: 35px;
+    text-align: justify;
+    letter-spacing: 2px;
+    text-decoration: none;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+#B-Par h1 {
+    text-align: center;
+}
+
+#C-Par {
+    width: 65%;
+    margin: auto;
+    font-size: 35px;
+}
+
+#D-Par {
+    width: 65%;
+    margin: auto;
+    font-size: 35px;
+}
+
+#D-Par h1 {
+    text-align: center;
+}
+
+#D-Par p {
+    display: inline-block;
+    padding: 40px;
+    text-align: center;
+}
+
 h1 {
     font-size: 50px;
 }
