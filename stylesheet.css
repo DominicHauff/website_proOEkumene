@@ -133,13 +133,13 @@ button {
 #A-Par, #B-Par, #C-Par, #D-Par {
     padding-bottom: 10vh;
     padding-top: 5vh;
+    font-size: 1.5vw;
 }
 
 #B-Par {
     width: 65%;
     margin: auto;
     text-indent: 50px;
-    font-size: 1.5vw;
     text-align: justify;
     letter-spacing: 2px;
     text-decoration: none;
@@ -154,13 +154,11 @@ button {
 #C-Par {
     width: 65%;
     margin: auto;
-    font-size: 35px;
 }
 
 #D-Par {
     width: 65%;
     margin: auto;
-    font-size: 35px;
 }
 
 #D-Par h1 {
@@ -174,7 +172,7 @@ button {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 2vw;
 }
 
 @media screen and (max-width: 1600px) {
