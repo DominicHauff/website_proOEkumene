@@ -246,6 +246,7 @@ h1 {
     }
 
     #B-Par, #C-Par, #D-Par {
-        font-size: 35px;
+        font-size: 20px;
+        width: 85vw;
     }
 }
