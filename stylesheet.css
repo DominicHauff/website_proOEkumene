@@ -140,6 +140,7 @@ button {
     width: 65%;
     margin: auto;
     text-align: justify;
+    letter-spacing: 1;
 }
 
 #B-Par h1 {
