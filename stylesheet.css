@@ -139,12 +139,7 @@ button {
 #B-Par {
     width: 65%;
     margin: auto;
-    text-indent: 50px;
     text-align: justify;
-    letter-spacing: 2px;
-    text-decoration: none;
-    padding-left: 200px;
-    padding-right: 200px;
 }
 
 #B-Par h1 {
@@ -157,7 +152,7 @@ button {
 }
 
 #D-Par {
-    width: 65%;
+    width: 70%;
     margin: auto;
 }
 
@@ -168,7 +163,6 @@ button {
 #D-Par p {
     display: inline-block;
     padding: 40px;
-    text-align: center;
 }
 
 h1 {
@@ -248,5 +242,9 @@ h1 {
     #slide-show {
         width: 90%;
         height: auto;
+    }
+
+    #B-Par, #C-Par, #D-Par {
+        font-size: 35px;
     }
 }
