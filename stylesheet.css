@@ -136,8 +136,9 @@ button {
     font-size: 1.5vw;
 }
 
-#A-Par {
-    text-align: center;
+#A-Par section {
+    width: 70%;
+    margin: auto;
 }
 
 #B-Par {
