@@ -133,7 +133,7 @@ button {
 #A-Par, #B-Par, #C-Par, #D-Par {
     padding-bottom: 10vh;
     padding-top: 5vh;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
 }
 
 #A-Par section {
@@ -142,7 +142,7 @@ button {
 }
 
 #B-Par {
-    width: 65%;
+    width: 60%;
     margin: auto;
     text-align: justify;
     letter-spacing: 1;
@@ -153,12 +153,12 @@ button {
 }
 
 #C-Par {
-    width: 65%;
+    width: 60%;
     margin: auto;
 }
 
 #D-Par {
-    width: 70%;
+    width: 65%;
     margin: auto;
 }
 
